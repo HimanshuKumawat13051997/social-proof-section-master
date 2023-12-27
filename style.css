@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+:root {
+  /* ### Primary */
+
+  --Very_Dark_Magenta: hsl(300, 43%, 22%);
+  --Soft_Pink: hsl(333, 80%, 67%);
+
+  /* ### Neutral */
+
+  --Dark_Grayish_Magenta: hsl(303, 10%, 53%);
+  --Light_Grayish_Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "League Spartan";
+}
+
+body {
+}
+
+section {
+  width: 90vw;
+  background: url(./images/bg-pattern-bottom-desktop.svg),
+    url(./images/bg-pattern-top-desktop.svg) no-repeat;
+}
+.stars {
+  height: 55px;
+  border-radius: 5px;
+  background-color: var(--Light_Grayish_Magenta);
+  color: var(--Very_Dark_Magenta);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.mind1 {
+}
+
+.heading {
+  color: var(--Very_Dark_Magenta);
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.anta {
+  color: var(--Dark_Grayish_Magenta);
+}
+
+.tilo {
+  box-sizing: border-box;
+  background-color: var(--Very_Dark_Magenta);
+  max-height: 250px;
+  max-width: 350px;
+}
+
+.name span:first-child {
+  font-weight: 700;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.name span:last-child {
+  font-weight: 500;
+  color: var(--Soft_Pink);
+  font-size: 0.85rem;
+}
+
+.para {
+  color: var(--White);
+  padding: 25px;
+  font: 700;
+}
+
+.mind2 {
+  height: 250px;
+}
